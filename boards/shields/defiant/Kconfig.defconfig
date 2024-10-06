@@ -1,7 +1,7 @@
 if DEFIANT_RIGHT
 
 config ZMK_KEYBOARD_NAME
-    default "Defiant_ced"
+    default "DefiantCed"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
@@ -12,5 +12,9 @@ if DEFIANT_LEFT || DEFIANT_RIGHT
 
 config ZMK_SPLIT
     default y
+
+config ZMK_KEYBOARD_NAME
+    default "Defiant_ced"
+
 
 endif
